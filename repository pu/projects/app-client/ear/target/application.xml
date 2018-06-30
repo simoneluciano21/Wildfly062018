@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/application_7.xsd" version="7">
+  <description>This project demonstrates how to package and use an EE application client. 
+      This is the EAR POM file, which creates the deployable application archive by 
+     including the EJB and client application together with the necessary API libraries.</description>
+  <display-name>SimpleApplicationForApplicationClient</display-name>
+  <module>
+    <ejb>ejb.jar</ejb>
+  </module>
+  <module>
+    <java>simpleClient.jar</java>
+  </module>
+</application>
