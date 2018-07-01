@@ -1,4 +1,4 @@
-# Ambienti di esecuzione del corso di Architettura dei Sistemi Software 
+# Wildfly with EJB services
 
 Simone Luciano, Ilaria Lombardi, Dalia Valeriani, Serena Bencivenga
 
@@ -6,7 +6,7 @@ I dati comuni con presenti nel file config.
 
 Configurazione: 
 
-#Server
+# Server
 Java 8
         node.vm.provision :shell, path: "../_shared/scripts/setup-java.sh"
 	
@@ -23,7 +23,7 @@ Start up di wildfly using standalone.sh
 		node.vm.provision :shell, path: "../_shared/scripts/startup-wildfly.sh" #SL use this sh on server, vagrant ssh server	
 		
 		
-#Client
+# Client
 Java 8
 		node.vm.provision :shell, path: "../_shared/scripts/setup-java.sh"
 		
